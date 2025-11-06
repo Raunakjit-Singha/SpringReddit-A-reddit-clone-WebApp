@@ -1,0 +1,64 @@
+@import url('https://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
+
+html{
+  padding: 0;
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+.login,
+.signup {
+  background-color: #0079D3;
+  border-color: #0079D3;
+  color: aliceblue;
+  fill: #0079D3;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  opacity: 1;
+}
+
+/* Limit the description to 5 lines and add an ellipsis for overflow */
+.post-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Style the "Show more" button */
+.show-more-button-container {
+  text-align: center;
+
+}
+
+.show-more-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+/* Display the full description when expanded */
+.post-text.expanded {
+  display: block;
+  -webkit-line-clamp: initial;
+  overflow: visible;
+}
