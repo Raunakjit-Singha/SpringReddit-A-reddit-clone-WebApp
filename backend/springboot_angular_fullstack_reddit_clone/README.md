@@ -178,3 +178,7 @@ I welcome contributions to the backend service. To contribute, follow these step
 ## License
 
 This backend service is released under the MIT License. See [LICENSE](./LICENSE) for more details.
+
+## Team Members
+* Raunakjit Singha
+* Aryaan Mahapatra
